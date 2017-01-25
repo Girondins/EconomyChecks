@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EconomyCheck</string>
+    <string name="title">Check your economy</string>
+    <string name="login">Type your name</string>
+    <string name="greeting">Welcome!</string>
+    <string name="confirm">Confirm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="income">Income</string>
+    <string name="outcome">Expense</string>
+    <string name="positive">+</string>
+    <string name="negative">-</string>
+    <string name="All">All</string>
+    <string name="back">Back</string>
+    <string name="task">Choose a task!</string>
+    <string name="amount">Enter Amount:</string>
+    <string name="prodName">Enter Title:</string>
+    <string name="day">DAY:</string>
+    <string name="month">MONTH:</string>
+    <string name="year">YEAR:</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

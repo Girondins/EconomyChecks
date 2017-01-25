@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent" tools:context="girondins.economycheck.ButtonFragment"
+    android:weightSum="1"
+    android:gravity="center_horizontal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/income"
+        android:id="@+id/incomeBtnID" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outcome"
+        android:id="@+id/outcomeBtnID"
+        android:layout_gravity="right" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/All"
+        android:id="@+id/allBtnID"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/positive"
+        android:id="@+id/addID"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/negative"
+        android:id="@+id/deID"
+        android:layout_weight="0.5" />
+
+</LinearLayout>
